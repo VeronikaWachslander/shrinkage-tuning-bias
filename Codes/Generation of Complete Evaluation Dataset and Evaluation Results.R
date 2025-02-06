@@ -18,7 +18,7 @@ source("General Functions and Settings.R")
 
 # Set Respective Directory
 
-path <- "~/"
+path <- "Datasets/Evaluation Datasets/"
 
 name <- list.files(path = path, pattern = "*.RData", full.names = TRUE)
 
