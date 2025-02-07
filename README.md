@@ -23,8 +23,8 @@ The repository contains two folders **Codes** and **Datasets**, which are struct
 <li> <b> Datasets </b> <i> (containing generated synthetic datasets) </i> <br> <br>
    <ul>
    <li> <b> Analytical Datasets </b> 
-   <i> (140 datasets generated with <b> Generation of Analytical Datasets </b> for analyzing shrinkage tuning bias) </i> </li> <br>
+   <i> (140 datasets generated with <b> Generation of Analytical Datasets </b> for analysis) </i> </li> <br>
    <li> <b> Evaluation Datasets </b>
-   <i> (48 datasets generated with <b> Generation of Evaluation Datasets </b> for evaluating shrinkage correction) </i> </li>
+   <i> (48 datasets generated with <b> Generation of Evaluation Datasets </b> for evaluation) </i> </li>
 </li>
 </ul>
