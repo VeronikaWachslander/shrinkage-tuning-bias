@@ -153,17 +153,15 @@ analysis_complete <- analysis_complete %>%
 
 ################################################################################
 
-# Load the Generated Complete Dataset
+# Load the Generated Complete Analytical Dataset (if not done yet)
 
-path <- "~/"
+# path <- "~/"
 
-load("~/final_analysis_complete.RData")
+# load("~/final_analysis_complete.RData")
+
+# load("~/final_analysis_parts.RData")  # Needed for Generation of Figure 1
 
 dim(analysis_complete) # Over 13 Million Cases
-
-
-load("~/final_analysis_parts.RData")  # Needed for Generation of Figure 1
-
 
 mean(analysis_complete$overshrinkage, na.rm = TRUE)
 
