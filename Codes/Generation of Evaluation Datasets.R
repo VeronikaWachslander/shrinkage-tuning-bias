@@ -19,9 +19,7 @@ library(rpart)
 library(rpart.plot)
 library(mlr)
 
-path <- "~/"
-
-load("~/final_regression_complete.RData")
+load("Datasets/Regression Dataset/final_regression_complete.RData")
 
 overshrinkTib <- mutate_if(regression_complete, is.character, as.factor)
 
