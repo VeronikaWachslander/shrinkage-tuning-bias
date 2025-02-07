@@ -12,13 +12,13 @@
 
 source("General Functions and Settings.R")
 
-# Regression Model Needed for Evaluation 
+# Reconstructing the Regression Tree Model (Resulting from "Regression Tree Model.R")
+# Needed for the Evaluation
 
 library(rpart)
 library(rpart.plot)
 library(mlr)
 
-# Loading Dataset generated in "Regression Tree Model.R"
 load("~/final_regression_complete.RData")
 
 overshrinkTib <- mutate_if(regression_complete, is.character, as.factor)
