@@ -7,24 +7,26 @@ The repository contains two folders **Codes** and **Datasets**, which are struct
 <ul>
 <li> <b> Codes </b> <i> (containing all source codes for data generation & reproduction of results shown in the paper) </i> <br> <br>
     <ul>
-    <li> <b> General Functions and Settings </b> 
+    <li> <b> General Functions and Settings.R </b> 
     <i> (required functions & settings) </i>  </li> <br>
-    <li> <b> Generation of Analytical Datasets </b> 
+    <li> <b> Generation of Analytical Datasets.R </b> 
     <i> (generating synthetic datasets to analyze shrinkage tuning bias) </i> </li> <br>
-    <li> <b> Generation of Complete Analytical Dataset and Analytical Results </b> 
+    <li> <b> Generation of Complete Analytical Dataset and Analytical Results.R </b> 
     <i> (combining analytical datasets & reproducing analytical results) </i> </li> <br>
-    <li> <b> Regression Tree Model </b> 
+    <li> <b> Regression Tree Model.R </b> 
     <i> (generating & tuning regression tree to predict shrinkage bias) </i> </li> <br>
-    <li> <b> Generation of Evaluation Datasets </b> 
+    <li> <b> Generation of Evaluation Datasets.R </b> 
     <i> (generating synthetic datasets to evaluate shrinkage correction) </i> </li> <br>
-    <li> <b> Generation of Complete Evaluation Dataset and Evaluation Results </b> 
+    <li> <b> Generation of Complete Evaluation Dataset and Evaluation Results.R </b> 
     <i> (combining evaluation datasets & reproducing evaluation results) </i> </li>
     </ul> <br>
 <li> <b> Datasets </b> <i> (containing generated synthetic datasets) </i> <br> <br>
    <ul>
    <li> <b> Analytical Datasets </b> 
-   <i> (140 datasets generated with <b> Generation of Analytical Datasets </b> for analysis) </i> </li> <br>
+   <i> (140 datasets generated with <b> Generation of Analytical Datasets.R </b> for analysis) </i> </li> <br>
    <li> <b> Evaluation Datasets </b>
-   <i> (48 datasets generated with <b> Generation of Evaluation Datasets </b> for evaluation) </i> </li>
+   <i> (48 datasets generated with <b> Generation of Evaluation Datasets.R </b> for evaluation) </i> </li> <br>
+        <li> <b> Regression Dataset </b> 
+   <i> (dataset generated with <b> Regression Tree Model.R </b> for regression tree model) </i> </li>
 </li>
 </ul>
