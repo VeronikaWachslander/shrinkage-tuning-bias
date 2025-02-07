@@ -78,9 +78,7 @@ tunedTree <- setHyperPars(tree, par.vals = tunedTreePars$x)
 
 ################################################################################
 
-path <- "~/"
-
-load("~/final_regression_complete.RData")
+load("Datasets/Regression Dataset/final_regression_complete.RData")
 
 dim(regression_complete)
 
