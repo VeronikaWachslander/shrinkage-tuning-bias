@@ -23,10 +23,10 @@ The repository contains two folders **Codes** and **Datasets**, which are struct
 <li> <b> Datasets </b> <i> (containing generated synthetic datasets) </i> <br> <br>
    <ul>
    <li> <b> Analytical Datasets </b> 
-   <i> (140 datasets generated with <b> Generation of Analytical Datasets.R </b> for analysis) </i> </li> <br>
+   <i> (140 datasets generated with <b> Generation of Analytical Datasets.R </b>) </i> </li> <br>
    <li> <b> Evaluation Datasets </b>
-   <i> (48 datasets generated with <b> Generation of Evaluation Datasets.R </b> for evaluation) </i> </li> <br>
+   <i> (48 datasets generated with <b> Generation of Evaluation Datasets.R </b>) </i> </li> <br>
         <li> <b> Regression Dataset </b> 
-   <i> (dataset generated with <b> Regression Tree Model.R </b> for regression tree model) </i> </li>
+   <i> (1 dataset generated with <b> Regression Tree Model.R </b>) </i> </li>
 </li>
 </ul>
