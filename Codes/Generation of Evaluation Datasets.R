@@ -10,9 +10,30 @@
 
 ################################################################################
 
-
 source("General Functions and Settings.R")
 
+# Regression Model Needed for Evaluation 
+
+library(rpart)
+library(rpart.plot)
+library(mlr)
+
+# Loading Dataset generated in "Regression Tree Model.R"
+load("~/final_regression_complete.RData")
+
+overshrinkTib <- mutate_if(regression_complete, is.character, as.factor)
+
+overshrinkTask <- makeRegrTask(data = overshrinkTib, target = "overshrinkage")
+
+tree <- makeLearner("regr.rpart")
+
+tunedTree <- setHyperPars(tree, par.vals = list(cp = 0.00000028))
+
+tunedTreeModel <- train(tunedTree, overshrinkTask)
+
+treeModelData <- getLearnerModel(tunedTreeModel)
+
+################################################################################
 
 # Two Separate Procedures (Pairwise Constant vs. Differing Error Correlations)
 
