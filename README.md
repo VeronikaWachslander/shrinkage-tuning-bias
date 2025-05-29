@@ -1,7 +1,7 @@
 # Weight Shrinkage Tuning Bias
 
-This repository contains the source code for the paper *Analyzing and Correcting Biased Machine Learning-Based Tuning of Weight Shrinkage in Forecast Combination*.
-% which is accepted for presentation at the *European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD) 2025* in Porto, Portugal. 
+This repository contains the source code and generated datasets for the paper *Analyzing and Correcting Biased Machine Learning-Based Tuning of Weight Shrinkage in Forecast Combination*.
+
 
 The repository contains two folders **Codes** and **Datasets**, which are structured as follows: <br>
 
